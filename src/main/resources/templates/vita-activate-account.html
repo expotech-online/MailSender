@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <img src="https://email.vitaparapharma.com/image/vitaparapharma_logo.png" alt="Company Logo"
+         style="display: block; margin: 0 auto; max-width: 200px;">
+</div>
+<p>Dear recipient,</p>
+<p>We hope this message finds you well.</p>
+<p>We are reaching out to provide you with important information:</p>
+<ul>
+    <li><strong>From:</strong>Vitaparapharma</li>
+    <li><strong>Expiration:</strong> <span id="expiration_date" th:text="${expiration}"></span></li>
+    <li><strong>Code:</strong> <span id="verification_code" th:text="${code}"></span></li>
+</ul>
+<p>If you have any questions or require further assistance, please do not hesitate to reach out to us via WhatsApp at
+    <strong>+212 708-759037</strong>.</p>
+<p>Thank you for your attention to this matter.</p>
+<p>Best regards,</p>
+<p>Vitaparapharma Team</p>
+</body>
+</html>

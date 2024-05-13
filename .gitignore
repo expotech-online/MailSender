@@ -1,0 +1,24 @@
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+src/main/resources/application-dev.properties
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Custom Files ###
+.env
+update.sh
+versions.txt
